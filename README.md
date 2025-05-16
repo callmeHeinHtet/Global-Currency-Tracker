@@ -22,7 +22,7 @@ A modern web application for tracking real-time currency exchange rates, convert
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/global-currency-tracker.git
+git clone https://github.com/callmeHeinHtet/global-currency-tracker.git
 cd global-currency-tracker
 ```
 
