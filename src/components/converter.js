@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
-const API_KEY = 'de83670f89aa3e243182d964'; // Replace with your key from exchangerate-api.com
-const API_URL = `https://v6.exchangerate-api.com/v6/${de83670f89aa3e243182d964}/latest/USD`;
+// Move API key to environment variable
+const API_KEY = process.env.REACT_APP_EXCHANGE_RATE_API_KEY;
+const API_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/latest/USD`;
 
 function Converter() {
   const [rates, setRates] = useState({});
